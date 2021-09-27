@@ -1,0 +1,4 @@
+server.port: 5601
+server.host: "10.148.0.4"
+server.name: "wso2-training"
+elasticsearch.hosts: ["http://10.148.0.4:9200"]

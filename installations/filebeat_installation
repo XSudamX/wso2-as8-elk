@@ -1,0 +1,5 @@
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.12.0-amd64.deb
+sudo dpkg -i filebeat-7.12.0-amd64.deb
+# Modify etc/filebeat/filebeat.yml
+sudo filebeat modules enable nginx system
+
